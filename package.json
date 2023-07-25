@@ -1,6 +1,7 @@
 {
   "name": "chess_holepunch",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +9,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "corestore": "^6.9.0",
+    "hyperswarm": "^4.5.1",
+    "random-access-memory": "^6.2.0"
+  }
 }
